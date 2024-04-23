@@ -27,12 +27,6 @@
     "lint": "eslint --cache '**/*.{ts,tsx}'",
     "format": "prettier --cache --write ."
   },
-  "lint-staged": {
-    "*.{ts,tsx}": [
-      "eslint",
-      "prettier --list-different"
-    ]
-  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -65,7 +59,7 @@
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-react": "^7.34.1",
     "husky": "8.0.1",
-    "lint-staged": "^15.2.2",
+    "lint-staged": "13.0.3",
     "prettier": "^3.2.5"
   }
 }
